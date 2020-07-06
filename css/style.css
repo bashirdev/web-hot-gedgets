@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-custom{
+ 
+background-image: url("../banner-products/custom-bg.png");
+background-repeat: no-repeat;
+
+
+
+}
+
+.carousel-indicators .non-active-indicator{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+   
+    cursor: pointer;
+    border: none;
+    background-image: linear-gradient(to right,#FFC81D , #723d00);
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 48px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    transition: all .2s ease-in-out;
+}
+.carousel-indicators .active {
+    width: 48px;
+   height: 5px;
+   border-radius: 10px;
+    margin: 10px;
+    background-image: linear-gradient(to right,#FFC81D , #FFA032);
+}
+
+.carousel-item{
+   padding: 20px 40px;
+}
+
+.custom-btn{
+    border: none;
+    padding: 10px;
+    color: dark;
+    border-radius: 10px;
+    font-size: 18px;
+    background-image: linear-gradient(to right,#FFC81D , #FFA032);
+    cursor: pointer;
+
+}
+
+.smart-id{
+    margin-top: 100px;
+}
+
+.card-group .shadow-smart-p{
+    box-shadow: -1px 6px 5px -2px rgba(0,0,0,0.17);
+  
+}
+
+.see-all{
+    color: orange;
+    font-size: 20px;
+}
+
+.smart-d-heading{
+    padding: 40px;
+}
+
+
+ #categorise-line{
+   
+    margin: auto; 
+    width: 150px;
+    height: 5px;
+    padding: 5px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right,#FFC81D , #FFA032);
+}
+
+.smart-shadow{
+    box-shadow: -1px 6px 5px -2px rgba(0,0,0,0.17);
+}
+footer{
+    margin-top: 400px;
+    padding: 20px;
+    color: oldlace;
+}
+
+
+
+
+   
